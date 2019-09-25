@@ -1,0 +1,816 @@
+{
+	"workspaceTemplates": {
+		"simple": {
+			"version": "1.0.0",
+			"name": "simple",
+			"type": "workspace",
+			"groups": {
+				"25e86bd8-d819-4fa0-93b2-40f356f6ca80": {
+					"windowNames": [
+						"Notepad-26-4054-Finsemble",
+						"Process Monitor-2-3478-Finsemble"
+					],
+					"isMovable": false,
+					"isAlwaysOnTop": false,
+					"topRightWindow": "Notepad-26-4054-Finsemble",
+					"isARectangle": false
+				}
+			},
+			"windows": [
+				"Welcome Component-16-3834-Finsemble",
+				"Notepad-26-4054-Finsemble",
+				"Process Monitor-2-3478-Finsemble",
+				"WPFExample-60-9137-Finsemble"
+			],
+			"windowData": [
+				{
+					"accelerator": {
+						"devtools": true,
+						"reload": true,
+						"reloadIgnoringCache": true,
+						"zoom": false
+					},
+					"acceptFirstMouse": false,
+					"affinity": "workspaceComponents",
+					"alias": "",
+					"alphaMask": {
+						"blue": -1,
+						"green": -1,
+						"red": -1
+					},
+					"alwaysOnBottom": false,
+					"alwaysOnTop": false,
+					"api": {
+						"iframe": {
+							"crossOriginInjection": false,
+							"enableDeprecatedSharedName": false,
+							"sameOriginInjection": true
+						}
+					},
+					"appUUID": "workspaceComponents",
+					"applicationIcon": "",
+					"arguments": "",
+					"aspectRatio": 0,
+					"autoHideMenuBar": true,
+					"autoShow": true,
+					"backgroundThrottling": false,
+					"bottom": 585,
+					"bounds": {
+						"bottom": 585,
+						"height": 432,
+						"left": 115,
+						"right": 515,
+						"top": 153,
+						"width": 400
+					},
+					"cachedHeight": 432,
+					"cachedLeft": 115,
+					"cachedTop": 153,
+					"cachedWidth": 400,
+					"center": false,
+					"componentType": "Welcome Component",
+					"container": "Electron",
+					"contextMenu": false,
+					"cornerRounding": {
+						"height": 0,
+						"width": 0
+					},
+					"customData": {
+						"component": {
+							"canMaximize": true,
+							"canMinimize": true,
+							"inject": false,
+							"preload": "http://localhost:3375/preloads/zoom.js",
+							"spawnOnStartup": false,
+							"type": "Welcome Component"
+						},
+						"cssOverride": "",
+						"foreign": {
+							"components": {
+								"App Launcher": {
+									"launchableByUser": true
+								},
+								"Toolbar": {
+									"iconClass": "ff-component"
+								},
+								"Window Manager": {
+									"FSBLHeader": true,
+									"persistWindowState": true,
+									"showLinker": true,
+									"title": "Welcome"
+								}
+							},
+							"services": {
+								"dockingService": {
+									"canGroup": true,
+									"isArrangable": true
+								},
+								"launcherService": {
+									"inject": false
+								}
+							}
+						},
+						"monitorDimensions": {
+							"bottom": 1400,
+							"height": 1400,
+							"left": 0,
+							"right": 2560,
+							"top": 0,
+							"width": 2560
+						},
+						"window": {
+							"affinity": "workspaceComponents",
+							"autoShow": true,
+							"frame": false,
+							"height": 432,
+							"left": "center",
+							"resizable": true,
+							"top": "center",
+							"url": "http://localhost:3375/components/welcome/welcome.html",
+							"width": 400
+						}
+					},
+					"darkTheme": false,
+					"defaultCentered": false,
+					"defaultHeight": 432,
+					"defaultLeft": 115,
+					"defaultTop": 153,
+					"defaultWidth": 400,
+					"delay_connection": false,
+					"disableAutoHideCursor": false,
+					"disableIabSecureLogging": false,
+					"draggable": false,
+					"enable-plugins": true,
+					"enableLargerThanScreen": true,
+					"execJSWhitelist": [
+						"workspaceService",
+						"windowService",
+						"Welcome Component-16-3834-Finsemble"
+					],
+					"exitOnClose": false,
+					"experimental": {
+						"api": {
+							"batching": {
+								"renderer": {
+									"enabled": false,
+									"maxSize": 1.7976931348623157e+308,
+									"ttl": 0
+								}
+							},
+							"breadcrumbs": false,
+							"iframe": {
+								"crossOriginInjection": false,
+								"enableDeprecatedSharedName": false,
+								"sameOriginInjection": true
+							}
+						},
+						"disableInitialReload": false,
+						"node": false,
+						"v2Api": true
+					},
+					"finsembleDomain": "localhost",
+					"fixedPosition": false,
+					"frame": false,
+					"frameConnect": "last",
+					"fullscreen": false,
+					"hasLoaded": false,
+					"height": 432,
+					"hideOnBlur": false,
+					"hideOnClose": false,
+					"hideWhileChildrenVisible": false,
+					"hoverFocus": false,
+					"icon": "http://localhost:3375/assets/img/Finsemble_Taskbar_Icon.png",
+					"kiosk": false,
+					"launchExternal": "",
+					"left": 115,
+					"loadErrorMessage": "",
+					"maxHeight": -1,
+					"maxWidth": -1,
+					"maximizable": true,
+					"minHeight": 0,
+					"minWidth": 0,
+					"minimizable": true,
+					"monitorInfo": 0,
+					"name": "Welcome Component-16-3834-Finsemble",
+					"opacity": 1,
+					"path": "",
+					"plugins": false,
+					"preload": [
+						{
+							"url": "http://localhost:3375/preloads/zoom.js"
+						},
+						{
+							"url": "http://localhost:3375/finsemble/FSBL.js"
+						},
+						{
+							"url": "http://localhost:3375/components/windowTitleBar/windowTitleBar.js"
+						}
+					],
+					"preloadScripts": [
+						{
+							"url": "http://localhost:3375/preloads/zoom.js"
+						},
+						{
+							"url": "http://localhost:3375/finsemble/FSBL.js"
+						},
+						{
+							"url": "http://localhost:3375/components/windowTitleBar/windowTitleBar.js"
+						}
+					],
+					"resizable": true,
+					"resize": true,
+					"resizeRegion": {
+						"bottomCorner": 10,
+						"bottomRightCorner": 9,
+						"sides": {
+							"bottom": true,
+							"left": true,
+							"right": true,
+							"top": true
+						},
+						"size": 5
+					},
+					"right": 515,
+					"saveWindowState": false,
+					"securityPolicy": "trusted",
+					"shadow": false,
+					"show": true,
+					"showTaskbarIcon": true,
+					"skipTaskbar": false,
+					"smallWindow": false,
+					"spellCheck": false,
+					"state": "normal",
+					"taskbarIcon": "",
+					"taskbarIconGroup": "Finsemble",
+					"title": "Welcome",
+					"top": 153,
+					"transparent": false,
+					"url": "http://localhost:3375/components/welcome/welcome.html",
+					"useContentSize": false,
+					"uuid": "workspaceComponents",
+					"waitForPageLoad": false,
+					"webPreferences": {
+						"affinity": "workspaceComponents",
+						"contextIsolation": false,
+						"nodeIntegration": false,
+						"preload": "C:\\Users\\d4hin\\repos\\finsemble-electron-adapter\\dist\\e2o.js",
+						"sandbox": true,
+						"transparent": false,
+						"webSecurity": true
+					},
+					"webSecurity": true,
+					"width": 400,
+					"windowIdentifier": {
+						"uuid": "workspaceComponents",
+						"name": "Welcome Component-16-3834-Finsemble",
+						"windowName": "Welcome Component-16-3834-Finsemble",
+						"windowType": "OpenFinWindow"
+					},
+					"windowName": "null",
+					"windowType": "OpenFinWindow"
+				},
+				{
+					"path": "notepad.exe",
+					"autoShow": true,
+					"backgroundColor": "#151f28",
+					"alwaysOnTop": false,
+					"fixedPosition": false,
+					"frame": false,
+					"frameConnect": "",
+					"hoverFocus": false,
+					"defaultCentered": false,
+					"maxHeight": -1,
+					"maximizable": true,
+					"maxWidth": -1,
+					"minHeight": 0,
+					"minimizable": true,
+					"minWidth": 0,
+					"opacity": 1,
+					"resizable": true,
+					"contextMenu": false,
+					"resizeRegion": {
+						"size": 5,
+						"bottomCorner": 10
+					},
+					"saveWindowState": false,
+					"showTaskbarIcon": true,
+					"state": "normal",
+					"waitForPageLoad": false,
+					"accelerator": {
+						"devtools": true,
+						"reload": true,
+						"zoom": false,
+						"reloadIgnoringCache": true
+					},
+					"icon": null,
+					"customData": {
+						"component": {
+							"type": "Notepad",
+							"canMinimize": true,
+							"canMaximize": true,
+							"spawnOnHotkey": [
+								"ctrl",
+								"alt",
+								"n"
+							]
+						},
+						"foreign": {
+							"services": {
+								"dockingService": {
+									"isArrangable": false
+								},
+								"launcherService": {
+									"inject": false
+								},
+								"workspaceService": {
+									"isArrangable": true
+								}
+							},
+							"components": {
+								"App Launcher": {
+									"launchableByUser": true
+								},
+								"Window Manager": {
+									"persistWindowState": false,
+									"FSBLHeader": true,
+									"showLinker": false
+								},
+								"Toolbar": {
+									"iconURL": "http://localhost:3375/assets/img/notepad.png"
+								}
+							}
+						},
+						"cssOverride": "",
+						"monitorDimensions": {
+							"top": 0,
+							"bottom": 1400,
+							"left": 0,
+							"right": 2560,
+							"width": 2560,
+							"height": 1400
+						},
+						"window": {
+							"id": "Notepad",
+							"native": true,
+							"path": "notepad.exe",
+							"url": "",
+							"defaultHeight": 600,
+							"autoShow": true,
+							"alwaysOnTop": false,
+							"resizable": true,
+							"showTaskbarIcon": false,
+							"contextMenu": true,
+							"addToWorkspace": true
+						}
+					},
+					"execJSWhitelist": [
+						"workspaceService",
+						"windowService"
+					],
+					"name": "Notepad-26-4054-Finsemble",
+					"componentType": "Notepad",
+					"preloadScripts": [
+						{
+							"url": "http://localhost:3375/finsemble/FSBL.js"
+						},
+						{
+							"url": "http://localhost:3375/components/windowTitleBar/windowTitleBar.js"
+						}
+					],
+					"preload": [
+						{
+							"url": "http://localhost:3375/finsemble/FSBL.js"
+						},
+						{
+							"url": "http://localhost:3375/components/windowTitleBar/windowTitleBar.js"
+						}
+					],
+					"windowType": "NativeWindow",
+					"defaultLeft": 702,
+					"defaultTop": 120,
+					"defaultWidth": 800,
+					"defaultHeight": 561,
+					"monitorInfo": 0,
+					"left": 702,
+					"top": 120,
+					"height": 561,
+					"width": 800,
+					"right": 1502,
+					"bottom": 681,
+					"uuid": "5e405280-df8c-11e9-866f-fb2766bddf47",
+					"key": "000D0626",
+					"defaultRight": 1502,
+					"defaultBottom": 681,
+					"location": {
+						"left": 702,
+						"top": 120,
+						"width": 800,
+						"height": 561,
+						"right": 1502,
+						"bottom": 681
+					},
+					"securityPolicy": "trusted",
+					"permissions": {
+						"System": {},
+						"Window": {},
+						"Application": {}
+					}
+				},
+				{
+					"accelerator": {
+						"devtools": true,
+						"reload": true,
+						"reloadIgnoringCache": true,
+						"zoom": false
+					},
+					"acceptFirstMouse": false,
+					"affinity": "workspaceComponents",
+					"alias": "",
+					"alphaMask": {
+						"blue": -1,
+						"green": -1,
+						"red": -1
+					},
+					"alwaysOnBottom": false,
+					"alwaysOnTop": false,
+					"api": {
+						"iframe": {
+							"crossOriginInjection": false,
+							"enableDeprecatedSharedName": false,
+							"sameOriginInjection": true
+						}
+					},
+					"appUUID": "workspaceComponents",
+					"applicationIcon": "",
+					"arguments": "",
+					"aspectRatio": 0,
+					"autoHideMenuBar": true,
+					"autoShow": true,
+					"backgroundThrottling": false,
+					"bottom": 1381,
+					"bounds": {
+						"top": 681,
+						"left": 102,
+						"width": 600,
+						"height": 700,
+						"bottom": 1381,
+						"right": 702
+					},
+					"cachedHeight": 700,
+					"cachedLeft": 102,
+					"cachedTop": 681,
+					"cachedWidth": 600,
+					"center": false,
+					"componentType": "Process Monitor",
+					"container": "Electron",
+					"contextMenu": false,
+					"cornerRounding": {
+						"height": 0,
+						"width": 0
+					},
+					"customData": {
+						"component": {
+							"canMaximize": true,
+							"canMinimize": true,
+							"category": "system",
+							"type": "Process Monitor"
+						},
+						"cssOverride": "",
+						"foreign": {
+							"components": {
+								"App Launcher": {
+									"launchableByUser": true
+								},
+								"Window Manager": {
+									"FSBLHeader": true,
+									"persistWindowState": true,
+									"showLinker": false,
+									"title": "Process Monitor"
+								}
+							},
+							"services": {
+								"dockingService": {
+									"isArrangable": true
+								},
+								"launcherService": {
+									"inject": false
+								}
+							}
+						},
+						"monitorDimensions": {
+							"bottom": 1400,
+							"height": 1400,
+							"left": 0,
+							"right": 2560,
+							"top": 0,
+							"width": 2560
+						},
+						"window": {
+							"affinity": "workspaceComponents",
+							"height": 700,
+							"url": "http://localhost:3375/components/processMonitor/processMonitor.html",
+							"width": 600
+						}
+					},
+					"darkTheme": false,
+					"defaultCentered": false,
+					"defaultHeight": 700,
+					"defaultLeft": 102,
+					"defaultTop": 681,
+					"defaultWidth": 600,
+					"delay_connection": false,
+					"disableAutoHideCursor": false,
+					"disableIabSecureLogging": false,
+					"draggable": false,
+					"enable-plugins": true,
+					"enableLargerThanScreen": true,
+					"execJSWhitelist": [
+						"workspaceService",
+						"windowService",
+						"Welcome Component-16-3834-Finsemble"
+					],
+					"exitOnClose": false,
+					"experimental": {
+						"api": {
+							"batching": {
+								"renderer": {
+									"enabled": false,
+									"maxSize": 1.7976931348623157e+308,
+									"ttl": 0
+								}
+							},
+							"breadcrumbs": false,
+							"iframe": {
+								"crossOriginInjection": false,
+								"enableDeprecatedSharedName": false,
+								"sameOriginInjection": true
+							}
+						},
+						"disableInitialReload": false,
+						"node": false,
+						"v2Api": true
+					},
+					"finsembleDomain": "localhost",
+					"fixedPosition": false,
+					"frame": false,
+					"frameConnect": "last",
+					"fullscreen": false,
+					"hasLoaded": false,
+					"height": 700,
+					"hideOnBlur": false,
+					"hideOnClose": false,
+					"hideWhileChildrenVisible": false,
+					"hoverFocus": false,
+					"icon": "http://localhost:3375/assets/img/Finsemble_Taskbar_Icon.png",
+					"kiosk": false,
+					"launchExternal": "",
+					"left": 102,
+					"loadErrorMessage": "",
+					"maxHeight": -1,
+					"maxWidth": -1,
+					"maximizable": true,
+					"minHeight": 0,
+					"minWidth": 0,
+					"minimizable": true,
+					"monitorInfo": 0,
+					"name": "Process Monitor-2-3478-Finsemble",
+					"opacity": 1,
+					"path": "",
+					"plugins": false,
+					"preload": [
+						{
+							"url": "http://localhost:3375/finsemble/FSBL.js"
+						},
+						{
+							"url": "http://localhost:3375/components/windowTitleBar/windowTitleBar.js"
+						}
+					],
+					"preloadScripts": [
+						{
+							"url": "http://localhost:3375/finsemble/FSBL.js"
+						},
+						{
+							"url": "http://localhost:3375/components/windowTitleBar/windowTitleBar.js"
+						}
+					],
+					"resizable": true,
+					"resize": true,
+					"resizeRegion": {
+						"bottomCorner": 10,
+						"bottomRightCorner": 9,
+						"sides": {
+							"bottom": true,
+							"left": true,
+							"right": true,
+							"top": true
+						},
+						"size": 5
+					},
+					"right": 702,
+					"saveWindowState": false,
+					"securityPolicy": "trusted",
+					"shadow": false,
+					"show": true,
+					"showTaskbarIcon": true,
+					"skipTaskbar": false,
+					"smallWindow": false,
+					"spellCheck": false,
+					"state": "normal",
+					"taskbarIcon": "",
+					"taskbarIconGroup": "Finsemble",
+					"title": "Process Monitor",
+					"top": 681,
+					"transparent": false,
+					"url": "http://localhost:3375/components/processMonitor/processMonitor.html",
+					"useContentSize": false,
+					"uuid": "workspaceComponents",
+					"waitForPageLoad": false,
+					"webPreferences": {
+						"affinity": "workspaceComponents",
+						"contextIsolation": false,
+						"nodeIntegration": false,
+						"preload": "C:\\Users\\d4hin\\repos\\finsemble-electron-adapter\\dist\\e2o.js",
+						"sandbox": true,
+						"transparent": false,
+						"webSecurity": true
+					},
+					"webSecurity": true,
+					"width": 600,
+					"windowIdentifier": {
+						"uuid": "workspaceComponents",
+						"name": "Process Monitor-2-3478-Finsemble",
+						"windowName": "Process Monitor-2-3478-Finsemble",
+						"windowType": "OpenFinWindow"
+					},
+					"windowName": "null",
+					"windowType": "OpenFinWindow"
+				},
+				{
+					"path": "C:/Users/d4hin/repos/finsemble-dll/WPFExample/bin/Release/WPFExample.exe",
+					"arguments": "",
+					"autoShow": true,
+					"backgroundColor": "#151f28",
+					"alwaysOnTop": false,
+					"fixedPosition": false,
+					"frame": false,
+					"frameConnect": "",
+					"hoverFocus": false,
+					"defaultCentered": false,
+					"maxHeight": -1,
+					"maximizable": true,
+					"maxWidth": -1,
+					"minHeight": 0,
+					"minimizable": true,
+					"minWidth": 0,
+					"opacity": 1,
+					"resizable": true,
+					"contextMenu": false,
+					"resizeRegion": {
+						"size": 5,
+						"bottomCorner": 10
+					},
+					"saveWindowState": false,
+					"showTaskbarIcon": true,
+					"state": "normal",
+					"waitForPageLoad": false,
+					"accelerator": {
+						"devtools": true,
+						"reload": true,
+						"zoom": false,
+						"reloadIgnoringCache": true
+					},
+					"icon": null,
+					"customData": {
+						"component": {
+							"type": "WPFExample",
+							"canMinimize": true,
+							"canMaximize": true,
+							"spawnOnStartup": false
+						},
+						"foreign": {
+							"services": {
+								"dockingService": {
+									"isArrangable": false
+								},
+								"launcherService": {
+									"inject": false
+								},
+								"workspaceService": {
+									"isArrangable": true
+								}
+							},
+							"components": {
+								"App Launcher": {
+									"launchableByUser": true
+								},
+								"Window Manager": {
+									"persistWindowState": false,
+									"FSBLHeader": true,
+									"showLinker": false,
+									"alwaysOnTopIcon": true
+								},
+								"Toolbar": {
+									"iconURL": "http://localhost:3375/assets/img/notepad.png"
+								}
+							}
+						},
+						"cssOverride": "",
+						"monitorDimensions": {
+							"bottom": 1400,
+							"height": 1400,
+							"left": 0,
+							"right": 2560,
+							"top": 0,
+							"width": 2560
+						},
+						"window": {
+							"id": "WPFExample",
+							"windowType": "FinsembleNativeWindow",
+							"path": "C:/Users/d4hin/repos/finsemble-dll/WPFExample/bin/Release/WPFExample.exe",
+							"url": "",
+							"arguments": "",
+							"autoShow": true,
+							"alwaysOnTop": false,
+							"resizable": true,
+							"showTaskbarIcon": false,
+							"contextMenu": true,
+							"addToWorkspace": true
+						}
+					},
+					"execJSWhitelist": [
+						"App LauncherApps",
+						"windowService"
+					],
+					"name": "WPFExample-60-9137-Finsemble",
+					"componentType": "WPFExample",
+					"preloadScripts": [
+						{
+							"url": "http://localhost:3375/finsemble/FSBL.js"
+						},
+						{
+							"url": "http://localhost:3375/components/windowTitleBar/windowTitleBar.js"
+						}
+					],
+					"preload": [
+						{
+							"url": "http://localhost:3375/finsemble/FSBL.js"
+						},
+						{
+							"url": "http://localhost:3375/components/windowTitleBar/windowTitleBar.js"
+						}
+					],
+					"windowType": "NativeWindow",
+					"defaultLeft": 1579,
+					"defaultTop": 607,
+					"defaultWidth": 800,
+					"defaultHeight": 600,
+					"monitorInfo": 0,
+					"left": 1579,
+					"top": 607,
+					"height": 600,
+					"width": 800,
+					"right": 2379,
+					"bottom": 1207,
+					"securityPolicy": "trusted",
+					"permissions": {
+						"System": {},
+						"Window": {},
+						"Application": {}
+					},
+					"isWPF": true,
+					"IAC": {
+						"serverAddress": "ws://127.0.0.1:3376"
+					},
+					"uuid": "54e95510-dfa0-11e9-8141-9d4b211fe0fd",
+					"generatedArguments": " \"finsembleWindowName=WPFExample-60-9137-Finsemble\" \"componentType=WPFExample\" \"uuid=uuid1569421532389_2686\" \"left=150\" \"top=150\" \"width=800\" \"height=600\" \"iac=true\" \"serverAddress=ws://127.0.0.1:3376\"",
+					"noFloatingTitle": true,
+					"hideTitleBar": true,
+					"spawnDefaultViewer": true,
+					"key": "00170494",
+					"defaultRight": 2379,
+					"defaultBottom": 1207,
+					"location": {
+						"left": 1579,
+						"top": 607,
+						"width": 800,
+						"height": 600,
+						"right": 2379,
+						"bottom": 1207,
+						"name": "WPFExample-60-9137-Finsemble",
+						"eventName": "bounds-changed"
+					}
+				}
+			],
+			"componentStates": {
+				"Welcome Component-16-3834-Finsemble": {},
+				"Notepad-26-4054-Finsemble": {},
+				"Process Monitor-2-3478-Finsemble": {},
+				"WPFExample-60-9137-Finsemble": {
+					"Finsemble_Linker": [
+						"group2"
+					]
+				}
+			}
+		}
+	}
+}
